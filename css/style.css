@@ -1,0 +1,17 @@
+.inputs{
+    margin: 1rem;
+}
+
+body{
+    background-color: rgb(206, 245, 232);
+}
+
+.btnSpremi{
+    margin: 1rem;
+}
+
+.tablicaPredmeta{
+    margin: 1rem;
+    width: 20%;
+    background-color: aliceblue;
+}

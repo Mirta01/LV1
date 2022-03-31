@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../../../sdks/bootstrap-4.6.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Git vjezba</title>
+    </head>
+    <body>
+        <div class="inputs">
+            <p>
+                Ime predmeta:
+                <input id="input1" type="text" name="input1" placeholder="Unesite ime predmeta...">
+            </p>
+            <p>
+                Semestar izvodenja:
+                <input id="input2" type="text" name="input2" placeholder="Unesite semestar...">  
+            </p>
+            <p>
+                Broj ECTS:
+                <input id="input3" type="number" name="input3">  
+            </p>
+        </div>
+        <button class="btn-dark btnSpremi" onclick="Klik()">Spremi</button>
+        <div>
+            <table class="tablicaPredmeta table-bordered">
+                <thead class="table-dark">
+                    <th>Predmet</th>
+                    <th>Semestar</th>
+                    <th>ECTS</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+        <script src="../../../sdks/jquery/jquery-3.6.0.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
