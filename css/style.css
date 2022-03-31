@@ -30,3 +30,7 @@ body{
 .middle{
     text-align: center;
 }
+
+#search{
+    margin: 1rem;
+}

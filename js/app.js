@@ -1,3 +1,12 @@
+$(document).ready(function(){
+    $("#search").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $(".tablicaPredmeta tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+
 
 function Klik(){
     const tbody = $(".tablicaPredmeta > tbody")[0];
@@ -31,3 +40,4 @@ function PolozenP()
 		td.parentNode.setAttribute("style","background-color:rgb(221, 163, 208);");
 	}
 }
+
