@@ -9,10 +9,24 @@ body{
 .btnSpremi{
     margin: 1rem;
     font-family: 'Times New Roman';
+    border-radius: 5%;
+}
+
+.btnObrisi{
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: cadetblue;
+    font-size: smaller;
+    color: aliceblue;
+    font-style: italic;
 }
 
 .tablicaPredmeta{
     margin: 1rem;
     width: 20%;
     background-color: aliceblue;
+}
+
+.middle{
+    text-align: center;
 }
